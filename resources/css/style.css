@@ -1,0 +1,45 @@
+body {
+  font-size: 16px;
+  font-family: Helvetica, sans;
+  color: #3F4345;
+}
+
+.mobile {
+  display: none;
+}
+
+/* Banner Below */
+
+.container {
+  padding: 32px 24px;
+  display: flex;
+}
+/* Header Below */
+
+ header {
+  height: 4rem;
+  display: flex;
+  flex-direction: row;
+}
+
+.top {
+  padding: auto 24px;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+ nav li {
+  display: inline-flex;
+  padding-right: 1rem;
+}
+
+ #logo {
+   align-content: center;
+   display: inline-flex;
+ }
+
+ #name {
+   margin-top: 8px;
+ }
